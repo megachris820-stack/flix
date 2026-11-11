@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIX</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+     <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="announcement">
+    <p>Thoughtful finds for everyday life. <a href="#products">Explore the collection <span aria-hidden="true">→</span></a></p>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top" aria-label="Cartivo home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img">
+            <path d="M7 11h18l-1.5 16h-15L7 11Z"></path>
+            <path d="M11 12V8a5 5 0 0 1 10 0v4"></path>
+          </svg>
+        </span>
+        <span class="brand__name">cartivo<span>.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a class="site-nav__link site-nav__link--active" href="#top">Home</a>
+        <a class="site-nav__link" href="#products">Shop</a>
+        <a class="site-nav__link" href="#categories">Categories</a>
+        <a class="site-nav__link" href="#deals">Deals</a>
+        <a class="site-nav__link" href="#reviews">Reviews</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="header-link" href="#newsletter">Sign in</a>
+        <button class="cart-button" type="button" aria-label="Shopping cart, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"></path>
+            <circle cx="10" cy="20" r="1"></circle>
+            <circle cx="18" cy="20" r="1"></circle>
+          </svg>
+          <span class="cart-button__label">Cart</span>
+          <span class="cart-button__count" aria-live="polite">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+    <main id="main-content">
+        <section class="hero section">
+            <div class="container hero__layout">
+                <div class="hero__content">
+                    <p class="eyebrow"><span class="eyebrow__dot"></span>THE EVERYDAY EDIT</p>
+                    <h1>Good finds.<br><span>Better everyday.</span></h1>
+                    <p class="hero__description">useful things, throughtful details, and everyday favourites - all in one place. Find something you'll love to use.</p>
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="#products">shop the colloction <span aria-hidden="true"></span></a>
+                        <a class="button button--text" href="#categories">Explore categories <span aria-hidden="true"></span></a>
+                    </div>
+                    <div class="hero__proof">
+                        <div class="hero__avatars" aria-hidden="true">
+                            <span>J</span><span>A</span><span>M</span><span>+</span>
+                        </div>
+                        <div>
+                            <div class="rating-stars" aria-label="Rated 4.8 out of 5"></div>
+                            <p><strong>Loved by everyday explorers</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual">
+                    <div class="hero__image-frame">
+                        <img src="/img/car.png"/>
+                    </div>
+                </div>          <div class="hero-note hero-note--top">
+            <span class="hero-note__icon" aria-hidden="true"></span>
+            <span><strong>Picked with purpose</strong><small>Everyday essentials, elevated.</small></span>
+          </div>
+          <div class="hero-note hero-note--bottom">
+            <span class="hero-note__label">THE DAILY CARRY</span>
+            <strong>Ready for wherever.</strong>
+            <a href="#products">Meet your new favourite <span aria-hidden="true"></span></a>
+          </div>
+          <span class="hero__decor hero__decor--one" aria-hidden="true"></span>
+          <span class="hero__decor hero__decor--two" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Shopping benefits">
+      <div class="container benefits__grid">
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true"></span>
+          <div><h2>Useful by design</h2><p>Products that earn their place.</p></div>
+        </article>
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true"></span>
+          <div><h2>Quality picks</h2><p>Chosen for everyday value.</p></div>
+        </article>
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true"></span>
+          <div><h2>Easy shopping</h2><p>A smoother way to find your thing.</p></div>
+        </article>
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true"></span>
+          <div><h2>Here to help</h2><p>Support when you need it.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FIND YOUR NEXT FAVOURITE</p>
+            <h2>Shop by category<span>.</span></h2>
+          </div>
+          <a class="text-link" href="#products">Browse everything <span aria-hidden="true"></span></a>
+        </div>
+
+        <div class="categories-grid">
+          <a class="category-card category-card--fashion" href="#products" data-category-link="Accessories">
+            <img src="https://images" alt="" loading="">
+            <span class="category-card__shade"></span>
+            <span class="category-card__content"><span class="category-card__number">01 / STYLE</span><strong>Style & carry</strong><span class="category-card__link">Explore collection </span></span>
+          </a>
+          <a class="category-card category-card--tech" href="#products" data-category-link="Tech">
+            <img src="https://images" alt="" loading="">
+            <span class="category-card__shade"></span>
+            <span class="category-card__content"><span class="category-card__number">02 / TECH</span><strong>Tech essentials</strong><span class="category-card__link">Explore collection </span></span>
+          </a>
+          <a class="category-card category-card--home" href="#products" data-category-link="Home">
+            <img src="https://images" alt="" loading="">
+            <span class="category-card__shade"></span>
+            <span class="category-card__content"><span class="category-card__number">03 / LIVING</span><strong>Home & living</strong><span class="category-card__link">Explore collection </span></span>
+          </a>
+          <a class="category-card category-card--beauty" href="#products" data-category-link="Beauty">
+            <img src="https://images" alt="" loading="">
+            <span class="category-card__shade"></span>
+            <span class="category-card__content"><span class="category-card__number">04 /cars</span><strong>luxury</strong><span class="category-card__link">Explore collection </span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading section-heading--products">
+          <div>
+            <p class="eyebrow">A FEW GOOD THINGS</p>
+            <h2>Popular right now<span>.</span></h2>
+            <p class="section-heading__description">The useful, the lovely, and the little things that make a difference.</p>
+          </div>
+          <a class="text-link" href="#newsletter">Get product updates <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="product-toolbar" role="group" aria-label="Filter products by category">
+          <button class="filter-button filter-button--active" type="button" data-filter="All" aria-pressed="true">All picks</button>
+          <button class="filter-button" type="button" data-filter="Accessories" aria-pressed="false">luxuries</button>
+          <button class="filter-button" type="button" data-filter="Tech" aria-pressed="false">Tech</button>
+          <button class="filter-button" type="button" data-filter="Home" aria-pressed="false">Home</button>
+          <button class="filter-button" type="button" data-filter="Beauty" aria-pressed="false">cars</button>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card" data-category="Tech">
+            <div class="product-card__image-wrap">
+              <img src="https://images." alt="Mercedes-Benz S580" loading="">
+              <span class="product-card__badge">BESTSELLER</span>
+              <button class="product-card__quick-view" type="button" aria-label="Luxury, comfort and advanced technology." data-add-to-cart="Luxury, comfort and advanced technology."></button>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__meta"><span>TECH</span><span class="product-card__rating"></span></div>
+              <h3>Mercedes-Benz S-class S580</h3>
+              <div class="product-card__bottom"><p class="product-card__price">₦158 million</p><button class="product-card__add" type="button" data-add-to-cart="Luxury, comfort and advanced technology.">Add to cart <span aria-hidden="true"></span></button></div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Tech">
+            <div class="product-card__image-wrap">
+              <img src="https://images" alt="Lexus LX 600" loading="">
+              <span class="product-card__badge product-card__badge--new">JUST IN</span>
+              <button class="product-card__quick-view" type="button" aria-label="Add to cart" data-add-to-cart="Twin-turbo V6 engine"></button>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__meta"><span>TECH</span><span class="product-card__rating"></span></div>
+              <h3>Lexus LX 600</h3>
+              <div class="product-card__bottom"><p class="product-card__price">₦280 million</p><button class="product-card__add" type="button" data-add-to-cart="Twin-turbo V6 engine">Add to cart <span aria-hidden="true"></span></button></div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Tech">
+            <div class="product-card__image-wrap">
+              <img src="https://images" alt="" loading="">
+              <button class="product-card__quick-view" type="button" aria-label="Add to cart" data-add-to-cart=""></button>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__meta"><span>TECH</span><span class="product-card__rating"></span></div>
+              <h3></h3>
+              <div class="product-card__bottom"><p class="product-card__price"></p><button class="product-card__add" type="button" data-add-to-cart="">Add to cart <span aria-hidden="true"></span></button></div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Tech">
+            <div class="product-card__image-wrap">
+              <img src="https://images" alt="" loading="">
+              <button class="product-card__quick-view" type="button" aria-label="" data-add-to-cart=""></button>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__meta"><span>TECH</span><span class="product-card__rating"></span></div>
+              <h3></h3>
+              <div class="product-card__bottom"><p class="product-card__price"></p><button class="product-card__add" type="button" data-add-to-cart="">Add to cart <span aria-hidden="true"></span></button></div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Accessories">
+            <div class="product-card__image-wrap">
+              <img src="https://images" alt="" loading="">
+              <button class="product-card__quick-view" type="button" aria-label="Add" data-add-to-cart="Daily Carry Tote"></button>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__meta"><span>luxuries</span><span class="product-card__rating"></span></div>
+              <h3></h3>
+              <div class="product-card__bottom"><p class="product-card__price"></p><button class="product-card__add" type="button" data-add-to-cart="Daily Carry Tote">Add to cart <span aria-hidden="true">+</span></button></div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Beauty">
+            <div class="product-card__image-wrap">
+              <img src="https://images" alt="" loading="">
+              <span class="product-card__badge product-card__badge--soft">DAILY FAVOURITE</span>
+              <button class="product-card__quick-view" type="button" aria-label="Add Daily Care Set to cart" data-add-to-cart=""></button>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__meta"><span></span><span class="product-card__rating"></span></div>
+              <h3></h3>
+              <div class="product-card__bottom"><p class="product-card__price"></p><button class="product-card__add" type="button" data-add-to-cart="">Add to cart <span aria-hidden="true"></span></button></div>
+            </div>
+          </article>
+        </div>
+
+        <p class="products-empty" hidden>No products found in this category yet. Try another collection.</p>
+        <div class="products-section__bottom"><a class="button button--outline" href="#categories">Explore all categories <span aria-hidden="true"></span></a></div>
+      </div>
+    </section>
+
+    <section class="promo-section" id="deals">
+      <div class="container">
+        <div class="promo-card">
+          <div class="promo-card__content">
+            <p class="eyebrow eyebrow--light">A LITTLE SOMETHING EXTRA</p>
+            <h2>Make room for<br>something good.</h2>
+            <p>Join our list for first looks, fresh finds, and occasional offers worth opening your inbox for.</p>
+            <a class="button button--light" href="#newsletter">Get the good stuff <span aria-hidden="true"></span></a>
+          </div>
+          <div class="promo-card__visual">
+            <img src="https://images" alt="" loading="">
+            <span class="promo-card__stamp">GOOD<br>THINGS<br>INSIDE <span aria-hidden="true"></span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading section-heading--center">
+          <p class="eyebrow">KIND WORDS, GOOD FINDS</p>
+          <h2>Small details. Big love<span>.</span></h2>
+          <p class="section-heading__description">A few words from our happy shoppers.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="rating-stars" aria-label="5 out of 5 stars"></div>
+            <blockquote>“Exactly what I was looking for. The product details were clear and the whole shopping experience felt easy.”</blockquote>
+            <div class="review-card__author"><span class="review-card__avatar">TC</span><span><strong>Tomi C.</strong><small>Verified customer</small></span></div>
+          </article>
+          <article class="review-card review-card--featured">
+            <div class="rating-stars" aria-label="5 out of 5 stars"></div>
+            <blockquote>“I like that the products feel practical without looking boring. Cartivo is now on my list when I need a useful gift.”</blockquote>
+            <div class="review-card__author"><span class="review-card__avatar">AO</span><span><strong>Amara O.</strong><small>Verified customer</small></span></div>
+          </article>
+          <article class="review-card">
+            <div class="rating-stars" aria-label="5 out of 5 stars"></div>
+            <blockquote>“Simple to browse, easy to understand, and there are some really nice everyday finds here.”</blockquote>
+            <div class="review-card__author"><span class="review-card__avatar">EK</span><span><strong>Emeka K.</strong><small>Verified customer</small></span></div>
+          </article>
+        </div>
+        <p class="demo-note">Demo content: replace these sample reviews with genuine customer feedback before launch.</p>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <p class="eyebrow">GOOD TO KNOW</p>
+          <h2>Questions?<br>We've got you<span>.</span></h2>
+          <p>Need more information before you shop? Start with these quick answers.</p>
+          <a class="text-link" href="mailto:hello@FLIX.example">Contact our team <span aria-hidden="true"></span></a>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>How long does delivery take?<span aria-hidden="true"></span></summary>
+            <p>Delivery times depend on your location and the item ordered. Your checkout page should show the estimated delivery window before payment.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which payment methods can I use?<span aria-hidden="true"></span></summary>
+            <p>This demo does not process payments. For a live store, connect a trusted payment provider and clearly list the payment methods you support.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I return an item?<span aria-hidden="true"></span></summary>
+            <p>Return eligibility and time limits should be stated in your store policy. Add your actual return process here before launching.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How can I contact customer support?<span aria-hidden="true"></span></summary>
+            <p>Replace the demo email address with your official support email, phone number, or business WhatsApp link.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section" id="newsletter">
+      <div class="container newsletter-section__inner">
+        <div>
+          <p class="eyebrow">THE FLIX LETTER</p>
+          <h2>Good things, occasionally.</h2>
+          <p>Fresh finds and useful updates. No inbox clutter.</p>
+        </div>
+        <form class="newsletter-form">
+          <label class="visually-hidden" for="newsletter-email">Your email address</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="Enter your email address" autocomplete="email" required>
+          <button class="button button--primary" type="submit">Sign me up <span aria-hidden="true">→</span></button>
+          <p class="newsletter-form__message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <a class="brand brand--footer" href="#top" aria-label="FLIX home">
+            <span class="brand__mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img">
+                <path d="M7 11h18l-1.5 16h-15L7 11Z"></path>
+                <path d="M11 12V8a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </span>
+            <span class="brand__name">FLIX<span>.</span></span>
+          </a>
+          <p>Thoughtful finds for everyday life. Discover useful things, lovely details, and your next favourite.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#top" aria-label="Instagram">ig</a>
+            <a href="#top" aria-label="TikTok">tk</a>
+            <a href="#top" aria-label="Facebook">fb</a>
+          </div>
+        </div>
+        <div class="site-footer__column">
+          <h2>Explore</h2>
+          <a href="#products">Shop all</a>
+          <a href="#categories">Categories</a>
+          <a href="#deals">Latest offers</a>
+          <a href="#reviews">Customer reviews</a>
+        </div>
+        <div class="site-footer__column">
+          <h2>Help</h2>
+          <a href="#faq">FAQs</a>
+          <a href="#faq">Delivery information</a>
+          <a href="#faq">Returns policy</a>
+          <a href="mailto:hello@FLIX.example">Contact us</a>
+        </div>
+        <div class="site-footer__column site-footer__column--contact">
+          <h2>Stay connected</h2>
+          <p>Have a question or a product suggestion? We'd love to hear from you.</p>
+          <a class="footer-email" href="mailto:hello@FLIX.example">hello@FLIX.example <span aria-hidden="true"></span></a>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© <span id="current-year">2026</span> FLIX. All rights reserved.</p>
+        <div><a href="#faq">Privacy policy</a><a href="#faq">Terms of service</a></div>
+        <p class="site-footer__demo">Demo storefront — not a live shop.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html
+    
